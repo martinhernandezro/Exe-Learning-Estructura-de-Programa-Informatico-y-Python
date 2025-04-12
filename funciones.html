@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Funciones | Estructura de un Programa Informático y Python </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Martín Hernández Rodríguez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-21"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Estructura de un Programa Informático y Python</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Estructura de un Programa Informático y Python</a></li>
+   <li><a href="introduccin.html" class="daddy">Introducción</a>
+   <ul class="other-section">
+      <li><a href="qu_es_un_programa_informtico.html" class="no-ch">¿Qué es un programa informático?</a></li>
+      <li><a href="la_importancia_de_la_estructura_de_un_programa_informtico.html" class="no-ch">La importancia de la estructura de un programa informático</a></li>
+   </ul>
+   </li>
+   <li><a href="etapas_y_elementos_de_un_programa_informtica.html" class="daddy">Etapas y Elementos de un programa informática</a>
+   <ul class="other-section">
+      <li><a href="etapas.html" class="no-ch">Etapas</a></li>
+      <li><a href="componentes_de_un_programa_informtco.html" class="no-ch">Componentes de un Programa Informátco</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="python.html" class="current-page-parent daddy">Python</a>
+   <ul>
+      <li><a href="sintaxis_variables_y_operadores.html" class="no-ch">Sintaxis, Variables y Operadores</a></li>
+      <li><a href="estructuras_de_control_en_python.html" class="no-ch">Estructuras de Control en Python</a></li>
+      <li id="active"><a href="funciones.html" class="active no-ch">Funciones</a></li>
+      <li><a href="mdulos.html" class="no-ch">Módulos</a></li>
+      <li><a href="listas_y_diccionarios_en_python.html" class="no-ch">Listas y Diccionarios en Python</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="estructuras_de_control_en_python.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mdulos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Funciones</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id97">
+<div class="iDevice emphasis0" >
+<div id="ta97_133_2" class="block iDevice_content">
+<div class="exe-text"><p>Las funciones en Python son bloques de código reutilizables que permiten estructurar un programa en partes más pequeñas y organizadas, facilitando la lectura, mantenimiento y depuración del código. Las funciones se utilizan para realizar tareas específicas, y pueden ser invocadas múltiples veces con diferentes entradas sin tener que reescribir el código. En Python, las funciones se definen utilizando la palabra clave def, seguidas de un nombre y paréntesis que pueden contener parámetros.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id98">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">1. Definición y Uso de Funciones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta98_134_2" class="block iDevice_content">
+<div class="exe-text"><p>Una función se define con la palabra clave def, seguida de un nombre representativo y paréntesis que pueden contener parámetros opcionales. Después de los dos puntos, el bloque de código que pertenece a la función debe estar indentado. Las funciones son invocadas por su nombre y pueden ser llamadas tantas veces como sea necesario, lo que permite evitar la repetición del mismo código.</p>
+<p style="text-align: center;"><img src="ejemplo23.png" alt="" width="528" height="106" /></p>
+<p style="text-align: left;">En este caso, la función saludar() se define sin parámetros y, cuando es llamada, imprime un mensaje. No es necesario que la función reciba ningún valor, y su ejecución se limita a la acción de imprimir el mensaje.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id99">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">2. Parámetros y Argumentos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta99_135_2" class="block iDevice_content">
+<div class="exe-text"><p>Las funciones pueden aceptar valores de entrada denominados parámetros. Estos valores permiten que la función trabaje con información externa a su cuerpo y realice operaciones basadas en esos valores. Los parámetros se definen dentro de los paréntesis de la función, y cuando la función es llamada, los argumentos se pasan en la llamada, reemplazando los parámetros definidos.</p>
+<p style="text-align: center;"><img src="ejemplo24.png" alt="" width="674" height="80" /></p>
+<p style="text-align: left;">En este caso, el parámetro nombre se utiliza dentro de la función para personalizar el mensaje. Al llamar a la función saludar("Carlos"), el argumento "Carlos" reemplaza al parámetro nombre y se utiliza en el mensaje.</p>
+<p style="text-align: left;"><strong>Parámetros con Valores por Defecto</strong><br />Es posible definir parámetros con valores por defecto, lo que permite que una función pueda ser llamada sin necesidad de pasar un argumento, utilizando el valor predeterminado. Esto puede ser útil cuando ciertos parámetros son opcionales.</p>
+<p style="text-align: center;"><img src="ejemplo25.png" alt="" width="716" height="105" /></p>
+<p style="text-align: center;">En este ejemplo, la función presentar tiene un parámetro nombre con un valor por defecto "Invitado". Si no se pasa un argumento, la función utiliza este valor predeterminado. Si se pasa un argumento, como "Ana", se utiliza ese valor.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id100">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">3. Retorno de Valores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta100_136_2" class="block iDevice_content">
+<div class="exe-text"><p>Las funciones en Python pueden devolver valores utilizando la palabra clave return. Esto permite que la función realice una tarea y devuelva el resultado para que se pueda utilizar en otras partes del programa. El valor retornado puede ser un número, una cadena de texto, una lista o incluso una tupla, dependiendo de las necesidades del programa.</p>
+<p style="text-align: center;"><img src="ejemplo26.png" alt="" width="482" height="101" /></p>
+<p style="text-align: left;">En este caso, la función sumar() toma dos parámetros a y b, y devuelve la suma de ambos. El valor retornado se almacena en la variable resultado y luego se imprime.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id101">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">4. Funciones con Múltiples Retornos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta101_137_2" class="block iDevice_content">
+<div class="exe-text"><p>En Python, una función puede devolver múltiples valores. Estos valores se agrupan en una tupla, que es un tipo de datos inmutable. Esto permite que la función devuelva varios resultados a la vez, los cuales pueden ser capturados en variables separadas.</p>
+<p style="text-align: center;"><img src="ejemplo27.png" alt="" width="604" height="145" /></p>
+<p style="text-align: left;">En este ejemplo, la función operaciones() realiza dos operaciones (suma y resta) y devuelve ambos resultados. Cuando se llama a la función, los valores devueltos se desempaquetan automáticamente en las variables suma y resta.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id102">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">5. Funciones Lambda </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta102_138_2" class="block iDevice_content">
+<div class="exe-text"><p>Las funciones lambda son funciones pequeñas y de una sola línea que se definen sin necesidad de usar def. Se utilizan comúnmente cuando se necesita una función simple de manera temporal. Las funciones lambda son útiles cuando no se quiere definir una función completa, pero se necesita una función breve para pasar como argumento a otra función, como en el caso de map(), filter(), o sorted().</p>
+<p style="text-align: center;"><img src="ejemplo28.png" alt="" width="463" height="44" /></p>
+<p style="text-align: left;">En este caso, se define una función lambda que toma dos parámetros, x y y, y devuelve su producto. Esta función es compacta y se puede usar directamente sin necesidad de asignarle un nombre explícito, lo que hace que sea útil para operaciones rápidas y sencillas.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id103">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">6. Ámbito de Variables: Local y Global</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta103_139_2" class="block iDevice_content">
+<div class="exe-text"><p>En Python, las variables pueden tener dos tipos de ámbito: local y global. Las variables locales son aquellas que se definen dentro de una función, y solo pueden ser utilizadas dentro de ella. Las variables globales son definidas fuera de cualquier función y pueden ser utilizadas por cualquier función dentro del mismo programa.</p>
+<p style="text-align: center;"><img src="ejemplo29.png" alt="" width="595" height="160" /></p>
+<p style="text-align: left;">En este caso, la variable x definida dentro de la función ejemplo() es local, y su valor solo es accesible dentro de esa función. La variable x fuera de la función es global, y su valor es accesible desde cualquier parte del programa. Como resultado, se imprime 5 dentro de la función y 10 fuera de ella.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id104">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">7. Recursividad en Funciones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta104_140_2" class="block iDevice_content">
+<div class="exe-text"><p>La recursividad es un concepto en programación en el que una función se llama a sí misma para resolver problemas que pueden descomponerse en subproblemas más pequeños y similares. Un ejemplo clásico de una función recursiva es el cálculo del factorial de un número, donde la función se llama a sí misma hasta llegar a un caso base.</p>
+<p style="text-align: center;"><img src="ejemplo30.png" alt="" width="543" height="124" /></p>
+<p>En este caso, la función factorial() se llama a sí misma con un valor decreciente de n hasta llegar al caso base, n == 0, en cuyo caso devuelve 1. Luego, las llamadas recursivas se resuelven de manera acumulativa hasta que se obtiene el valor final de 5! = 120.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="estructuras_de_control_en_python.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mdulos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
